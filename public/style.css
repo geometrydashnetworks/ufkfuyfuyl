@@ -1,0 +1,47 @@
+body, html {
+    margin: 0; padding: 0;
+    height: 100%; width: 100%;
+    background: #121212;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.browser-ui {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav-bar {
+    background: #202124;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-buttons button {
+    background: none; border: none; color: #e8eaed;
+    font-size: 18px; cursor: pointer; padding: 5px 8px;
+}
+
+.address-container {
+    flex: 1;
+    background: #303134;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 4px 15px;
+}
+
+.lock { font-size: 12px; margin-right: 10px; opacity: 0.7; color: white; }
+
+#url-input {
+    width: 100%;
+    background: none; border: none;
+    color: white; outline: none;
+    font-size: 14px;
+}
+
+.view { flex: 1; background: #fff; }
+iframe { width: 100%; height: 100%; border: none; }
