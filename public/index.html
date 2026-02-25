@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geometry Dash Networks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="browser-ui">
+        <header class="nav-bar">
+            <div class="nav-buttons">
+                <button onclick="document.getElementById('content').contentWindow.history.back()">←</button>
+                <button onclick="document.getElementById('content').contentWindow.history.forward()">→</button>
+                <button onclick="document.getElementById('content').src = document.getElementById('content').src">↻</button>
+            </div>
+            <div class="address-container">
+                <span class="lock">🔒</span>
+                <input type="text" id="url-input" placeholder="Search with Geometry Dash Networks or enter a URL">
+            </div>
+        </header>
+        <main class="view">
+            <iframe id="content" src="about:blank"></iframe>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mercuryworkshop/scramjet/dist/scramjet.codecs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mercuryworkshop/scramjet/dist/scramjet.config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
