@@ -1,0 +1,19 @@
+{
+  "name": "geometry-dash-networks",
+  "version": "1.0.0",
+  "description": "A high-performance web navigation interface using Scramjet.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "proxy",
+    "scramjet",
+    "webview"
+  ],
+  "author": "Geometry Dash Networks Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
